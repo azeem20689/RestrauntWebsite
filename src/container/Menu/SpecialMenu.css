@@ -1,0 +1,107 @@
+.special-menue{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: var(--font-base);  
+    background-color: var(--color-black); 
+}
+.special-menue-top{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+.special-menue-bottom{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+.special-menue-bottom-left{
+    width: 34%;
+    text-align: center;
+}
+
+.special-menue-bottom-center{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-menue-bottom-center img{
+    width: 75%;
+    
+}
+
+.special-menue-bottom-right{
+    width: 34%;
+    text-align: center;
+}
+
+
+/* Menue Left*/
+.special-menue-bottom-left-content{
+    display: flex;
+    width: 100%;
+}
+.special-menue-bottom-left-content-left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+.special-menue-bottom-left-content-left h4{
+    margin-bottom: 0.5rem;
+}
+.special-menue-bottom-left-content-left p{
+    font-size: small;
+}
+.special-menue-bottom-left-content-right{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    padding-right: 2rem;
+    color: white;
+    font-size: 21px;
+    width: 50%;
+}
+/* Menue Right  */
+
+.special-menue-bottom-right-content{
+    display: flex;
+    width: 100%;
+}
+.special-menue-bottom-right-content-left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+.special-menue-bottom-right-content-left h4{
+    margin-bottom: 0.5rem;
+}
+
+.special-menue-bottom-right-content-left p{
+    font-size: small;
+}
+.special-menue-bottom-right-content-right{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    padding-right: 2rem;
+    color: white;
+    font-size: 21px;
+    width: 50%;
+ 
+}

@@ -1,0 +1,30 @@
+.chef{
+    width: 100%;
+    display: flex;
+    font-family: var(--font-base);   
+    background-image: url(../../assets/bg.png);
+    padding: 2rem;
+}
+.chef-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.chef-left img{
+    width: 64%;
+}
+.chef-right{
+    width: 50%;
+    padding: 2rem 1rem;
+}
+.chef-right p{
+    color: white;
+    margin: 5rem 0;
+}
+
+span {
+    content: "\201C";
+    color: white;
+    /* font-size: 100px; */
+    font-size: 40px;
+  }

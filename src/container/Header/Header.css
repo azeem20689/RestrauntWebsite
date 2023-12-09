@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    background-color: var(--color-black);
+    font-family: var(--font-base); 
+    letter-spacing: 0.1em;
+}
+.left{
+width: 50%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+padding: 7rem 3rem;
+}
+.left .subheading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left h1{
+    color: var(--color-golden);
+    line-height: 75px;
+    font-size: 60px;
+    
+}
+.left a{
+    margin-top: 1rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    line-height: 25px;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+.left a:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.right{
+ width: 50%;
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+.right img{
+    width: 50%;
+}

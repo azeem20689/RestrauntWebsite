@@ -1,0 +1,7 @@
+.laurels {
+  width: 100%;
+  display: flex;
+  font-family: var(--font-base);
+  background-image: url(../../assets/bg.png);
+  padding: 2rem;
+}

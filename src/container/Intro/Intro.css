@@ -1,0 +1,26 @@
+.intro{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.intro-icons{
+    position: absolute;
+    inset: 0 ;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.intro-icons-div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  
+}

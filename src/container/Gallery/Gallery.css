@@ -1,0 +1,47 @@
+.gallery {
+  display: flex;
+  background-color: var(--color-black);
+  font-family: var(--font-base);
+  letter-spacing: 0.1em;
+  padding: 3rem 1rem 3rem 4rem;
+  width: 100%;
+  
+}
+.gallery-left{
+    width: 55%;
+    border-right: 1px solid white;
+    margin-right: 1rem;
+}
+.gallery-left a{
+    color: white;
+    font-size: 15px;
+    padding: 0.5rem 1rem ;
+    border: 1px solid white;
+    
+}
+
+.gallery-left a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.gallery-right{
+    width: 45%;
+    display: flex;
+   
+}
+
+.gallery-right-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.gallery-right-images-photo{
+    
+
+}
+
+.gallery-right-images-photo img{
+    width: 100%;
+}
